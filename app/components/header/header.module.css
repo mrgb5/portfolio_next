@@ -1,0 +1,56 @@
+/* header.module.css */
+
+.header {
+  padding: 0 10%;
+  background-color: black;
+  z-index: 50;
+  font-family: Sora;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.image {
+  width: 25px;
+  height: 25px;
+}
+
+.ul {
+  list-style-type: none;
+  display: flex;
+  gap: 10px;
+}
+
+.submenu_container {
+  position: relative;
+  z-index: 10;
+}
+
+.submenu {
+  position: absolute;
+  top: 30px;
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  padding: 10px 10px;
+  list-style-type: none;
+}
+
+.submenu a {
+  display: block;
+  white-space: nowrap;
+}
+
+.ul a {
+  padding: 15px;
+  font-style: normal;
+  text-decoration: none;
+  color: #fff;
+}
+
+.hide {
+  display: none;
+}

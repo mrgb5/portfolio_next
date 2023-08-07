@@ -1,0 +1,64 @@
+.temoignages {
+  margin: 2%;
+  font-family: Sora;
+  display: grid;
+}
+
+.temoignages h1 {
+  text-align: center;
+  margin: 30px 0;
+}
+
+.temoignages_liste {
+  padding: 10px 6rem;
+  width: fit-content;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 4rem;
+  margin: auto;
+  list-style: none;
+}
+
+.temoignages_liste div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  text-align: left;
+}
+
+.temoignages img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin: 1%;
+  box-shadow: 0px 4px 12px 0px rgba(75, 126, 255, 0.6),
+    4px 0px 12px 0px rgba(75, 126, 255, 0.24);
+}
+.temoignages p {
+  margin: 3%;
+}
+
+.temoignages a {
+  color: #fff;
+  text-align: center;
+  font-size: 1.1rem;
+  font-family: Sora;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  width: fit-content;
+  margin-top: 16px;
+  border: none;
+  padding: 1.2rem 3rem;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0.3125rem;
+  text-decoration: none;
+  margin: 2rem auto;
+  background: var(--blue, #0b8dcd);
+
+  box-shadow: 0px 4px 24px 0px rgba(75, 126, 255, 0.6),
+    4px 0px 24px 0px rgba(75, 126, 255, 0.24);
+}

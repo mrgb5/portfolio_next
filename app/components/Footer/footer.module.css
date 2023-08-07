@@ -1,0 +1,16 @@
+.footer {
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+.footer div {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.footer div a {
+  margin-right: 10px;
+  color: #060c1d;
+  text-decoration: none;
+}

@@ -1,0 +1,77 @@
+.contact {
+  font-family: Sora;
+}
+
+.contact button {
+  color: #fff;
+  text-align: center;
+  font-size: 1.1rem;
+  font-family: Sora;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  width: fit-content;
+  margin-top: 16px;
+  border: none;
+  padding: 1.2rem 3rem;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0.3125rem;
+  margin: 2%;
+  background: var(--blue, #0b8dcd);
+
+  box-shadow: 0px 4px 24px 0px rgba(75, 126, 255, 0.6),
+    4px 0px 24px 0px rgba(75, 126, 255, 0.24);
+}
+
+.contact h1 {
+  text-align: center;
+  margin: 30px 0;
+}
+.input,
+.textarea {
+  width: 90%;
+  padding: 12px;
+  border: 4px solid #0b8dcd;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin: 1%;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+  box-shadow: 0px 4px 9px 0px rgba(75, 126, 255, 0.6),
+    4px 0px 9px 0px rgba(75, 126, 255, 0.24);
+}
+
+.textarea {
+  height: 100px;
+  line-height: 150%;
+  resize: vertical;
+}
+
+.form {
+  box-shadow: 0 30px 60px 0 rgba(75, 126, 255, 0.6);
+  border-radius: 5px;
+  max-width: 480px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding: 20px;
+  left: 0;
+  right: 0;
+  margin-bottom: 5%;
+  margin-top: 30px;
+  border-top: 5px solid #0e3721;
+  /*   z-index: 1; */
+  animation: bounce 1.5s infinite;
+}
+
+.form div {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+/* ::-webkit-input-placeholder {
+  font-size: 1.3em;
+} */

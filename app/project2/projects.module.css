@@ -1,0 +1,84 @@
+.projects {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 60%;
+  margin: auto;
+  margin-bottom: 55px;
+  font-family: Sora;
+}
+.projects h1 {
+  margin: 20px;
+}
+
+.projects p {
+  margin-bottom: 3rem;
+}
+.projects_list {
+  padding: 10px 6rem;
+  width: fit-content;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 4rem;
+  margin: auto;
+  list-style: none;
+}
+
+.projects_list section {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.projects img {
+  width: 600px;
+  height: fit-content;
+  margin-bottom: 3rem;
+}
+.button {
+  text-decoration: none;
+  color: #fff;
+  text-align: center;
+  font-size: 1.1rem;
+  font-family: Sora;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  width: fit-content;
+  border: none;
+  padding: 1.2rem 3rem;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0.3125rem;
+  margin: 2%;
+  background: var(--blue, #0b8dcd);
+
+  box-shadow: 0px 4px 24px 0px rgba(75, 126, 255, 0.6),
+    4px 0px 24px 0px rgba(75, 126, 255, 0.24);
+}
+
+.competences {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 55px;
+}
+.competences h2 {
+  margin: 2rem 0;
+  text-align: center;
+}
+.competences_list {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 50px;
+  margin: auto;
+  list-style: none;
+}
+
+.competences_list li {
+  padding: 18px 25px;
+  background-color: #060c1d;
+  border-radius: 10px;
+  font-weight: 600;
+  border: solid 2px rgba(0, 102, 255, 0.6);
+}
