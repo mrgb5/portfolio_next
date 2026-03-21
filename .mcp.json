@@ -1,0 +1,15 @@
+{
+  "mcpServers": {
+    "wordpress-888zone": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@anthropic-ai/wordpress-mcp"
+      ],
+      "env": {
+        "WORDPRESS_SITE_URL": "https://888zone.bet",
+        "WORDPRESS_AUTH_TOKEN": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczovLzg4OHpvbmUuYmV0IiwiaWF0IjoxNzc0MTE5NjAyLCJleHAiOjE3NzQxMjMyMDIsInVzZXJfaWQiOjEsImp0aSI6ImhHRVNBSDhVTjJkbUpZZW5EektSY2tYVDhzMXV3OXNmIn0.LiTfJL69AOzL8FAoSOe1WK7hLE119sB7kq_9-HbcF3Q"
+      }
+    }
+  }
+}
