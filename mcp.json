@@ -4,11 +4,11 @@
       "command": "npx",
       "args": [
         "-y",
-        "@anthropic-ai/wordpress-mcp-server"
+        "@automattic/mcp-wordpress-remote"
       ],
       "env": {
-        "WORDPRESS_SITE_URL": "https://immotop.ca",
-        "WORDPRESS_AUTH_TOKEN": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczovL2ltbW90b3AuY2EiLCJpYXQiOjE3NzQyOTU0MDcsImV4cCI6MTc3Njg4NzQwNywidXNlcl9pZCI6MSwianRpIjoiMVd1RjFBS096cEVIYUpHcGZ6MmJBMnFDRGxhN3ZBZGsifQ.o_E24vi61D9canGTvZVirp7XbJMKq37l_HWmQxwayRg"
+        "WP_API_URL": "https://immotop.ca",
+        "JWT_TOKEN": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczovL2ltbW90b3AuY2EiLCJpYXQiOjE3NzQyOTU0MDcsImV4cCI6MTc3Njg4NzQwNywidXNlcl9pZCI6MSwianRpIjoiMVd1RjFBS096cEVIYUpHcGZ6MmJBMnFDRGxhN3ZBZGsifQ.o_E24vi61D9canGTvZVirp7XbJMKq37l_HWmQxwayRg"
       }
     }
   }
